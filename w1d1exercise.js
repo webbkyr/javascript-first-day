@@ -1,5 +1,12 @@
 function yearOfBirth(age){
-	const yearOfBirth = 2017-age;
+    const yearOfBirth = 2017-age;
+    try {
+        age < 0;
+    }
+    catch(e) {
+        console.log("Age cannot be negative");
+        console.dir(e);
+    }
 	return yearOfBirth;
 }
 
@@ -10,4 +17,4 @@ function whoAmI(name, age) {
 }
 
 
-whoAmI("Tony", 21);
+whoAmI("Tony", -2);

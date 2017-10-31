@@ -13,7 +13,7 @@ function yearOfBirth(age){
     catch(e) {
         console.log("User error: " + e.message);
     }
-	return 2017-age;
+	return yearOfBirth;
 }
 
 yearOfBirth(-2);
